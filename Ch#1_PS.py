@@ -1,6 +1,9 @@
 import http.client 
 import json 
 
+
+#Q3
+
 connection = http.client.HTTPSConnection("www.google.com")
 
 connection.request("GET", "/todos/1")
@@ -20,4 +23,3 @@ try:
     print("Content", pretty_json)
 except json.JSONDecodeError:
     print("Content", data.decode('utf-8'))
-    
