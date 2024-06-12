@@ -1,4 +1,2 @@
-# IN THIS FOLLOWING PYTHON FILE WE WILL PERFORM PYTHON QUESITON 4 USING OS MODULE:
 import os
-
-directory_path = ''
+print(os.listdir())
