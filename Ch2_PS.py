@@ -40,3 +40,34 @@ print(f"Addition of {a} and {b} is = {a+b}")
 print(f"Subtraction of {a} and {b} is = {a-b}")
 print(f"Multiplication of {a} and {b} is = {a*b}")
 print(f"Division of {a} and {b} is = {int(a/b)}")
+
+#Exercise 4: comparision operators using Logical Operations:
+print("Exercise 4: ============================")
+
+a = int(input("Enter your first Number: "))
+b = int(input("Enter your second Number: "))
+x = True
+y = False
+
+if(a>b):
+    print(f"{a} > {b}, A is greater then B")
+    print(x)
+elif(a<b):
+    print(f"{a} < {b}, B is greater then A ")
+elif(a==b):
+    print(f"{a} == {b}, A is equal to B")
+else:
+    print(y)
+
+#Exercise 5: Taking User Input:
+a = input("Please Enter your first Name: ")
+b = input("Please Enter your last Name: ")
+c = int(input("Please Enter your Age: "))
+d = input("Please Enter your Address including post Code: ")
+e = int(input("Please Enter your phone number :"))
+print("=============OUTPUT===============")
+print(f"First Name : {a}, type :{type(a)}")
+print(f"Last Name: {b}, type :{type(b)}")
+print(f"Age: {c}, type: {type(c)}")
+print(f"Address : {d}, type: {type(d)}")
+print(f"Phone Number : {e}, type: {type(e)}")
