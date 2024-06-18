@@ -37,3 +37,33 @@ a = (1, 2, 3, 4, 5, 1)
 print(a.count(1))
 #Find the index number of the first accurance of the argument:
 print(a.index(4))
+
+fruits = []
+for i in range(5):
+    fruit = input(f"Please Enter Fruit name{i+1}: ")
+    fruits.append(fruit)
+
+print("The list of Fruits are: ", fruits)
+
+#Exercise 2: Enter and store marks of students and display in sortyed manner:
+marks = []
+for i in range(5):
+    mark = int(input(f"Please Enter the Student {i+1} Mark: "))
+    marks.append(mark)
+marks.sort()
+print("The marks of the students are : ", marks)
+
+#Exercise 3: Write a program to sum a list with 4 numbers:
+numbers = []
+for i in range(4):
+    number = int(input(f"Please Enter the Number {i+1} :"))
+    numbers.append(number)
+
+total  = sum(numbers)
+print(f"The list of numbers stored are : {numbers}")
+print("The total sum of numbers are : ", total)
+
+#Exercise 4: count the number of zeros in a tuple:
+a = (1,2,3,4,5,0,5,4,5,0,3,6,7,7,2,3,5,6,5,5,0)
+zeros = a.count(0)
+print(f"The Number of Zeros in the tuple are : {zeros} ")
