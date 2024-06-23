@@ -44,7 +44,7 @@ if len(username)<10:
 else:
     print("The length of the username contains more than 10 character")
 
-Exercise 4: Check if the post mentions harry:
+#Exercise 4: Check if the post mentions harry:
 post = input("Please Enter a post: ")
 if "harry" in post:
     print("The post is talking about Harry !")
